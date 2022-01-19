@@ -1,0 +1,60 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body header div{
+    display: flex;
+    flex-direction: column;
+}
+
+body header div img{
+    align-self: center;
+}
+body header div hgroup {
+    text-align: center;
+}
+
+.vv
+{
+   
+  
+    -webkit-transition: -webkit-transform 1s;
+}
+
+.vv:hover{
+    -webkit-transform:rotate(180deg) translateZ(0) ;
+}
+
+.v1
+{
+    display: inline-block;
+display: block;
+position: fixed;
+}
+
+.v1:hover{
+    
+    -webkit-animation: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+    
+}
+
+@-webkit-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+}
+.v2{
+    -webkit-animation: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+    
+}
+

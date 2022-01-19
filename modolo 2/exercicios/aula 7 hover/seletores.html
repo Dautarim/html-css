@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELETORES</title>
+    <style>
+
+        /*
+        tipos de seletores personalisados:
+
+        . = classe
+        # = id
+        : = pseudo-classe
+        :: = pseudo-elemento
+        > = filho
+        
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: rgb(255, 0, 255);
+            text-decoration: none;
+        }
+
+        a:hover
+        {
+            color: black;
+            text-decoration: underline;
+        }
+        a:hover::after
+        {
+            content: ' ❀';
+        }
+
+        a:active{
+            color: red;
+            background-color: rgb(72, 116, 101);
+        }
+
+        .milf::after{ /*o after serve para colocar coisas depois do conteudo mostrado*/
+            content: ' Milf';
+            color: rgba(102, 99, 99, 0.637);
+        }
+        
+    </style>
+
+</head>
+<body>
+    
+    <h1>FALANDO DE SELETORES</h1>
+        <p> BELDADES PEITUDAS</p>
+    <ul>
+
+        <li><a href="https://www.google.com/search?q=ava+addams+xxx&sxsrf=AOaemvLrWkXjQrDswTz58C1t8WFcnH7ohQ:1642134820273&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj2sYr1tLD1AhURI7kGHVqcBA0Q_AUoAXoECAEQAw&biw=1366&bih=657&dpr=1" target="_blank" class="milf">AVA ADAMS</a></li>
+
+        <li><a href="https://www.google.com/search?q=angela+white+xxx&tbm=isch&ved=2ahUKEwiKpqv2tLD1AhVxDtQKHfkHB9UQ2-cCegQIABAA&oq=angela+white+xxx&gs_lcp=CgNpbWcQA1D6MFi7UGDTW2gAcAB4AIAB7AGIAesRkgEGMC4xMS4ymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=Jv3gYYr7NvGc0Ab5j5yoDQ&bih=657&biw=1366" target="_blank" >ANGELA WHITE</a></li>
+
+        <li><a href="https://www.google.com/search?q=alisom+tyler+xxx&tbm=isch&ved=2ahUKEwjA3fONtbD1AhXFMLkGHSChBRUQ2-cCegQIABAA&oq=alisom+tyler+xxx&gs_lcp=CgNpbWcQA1C3DliuP2DFRGgAcAB4AIABzwKIAckXkgEHMC43LjUuMpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=WP3gYcDRE8Xh5OUPoMKWqAE&bih=657&biw=1366" target="_blank" class="milf">ALISON TYLER</a></li>
+
+        <li><a href="https://www.google.com/search?q=autumn+falls+xxx&tbm=isch&ved=2ahUKEwj-vbS8tbD1AhWRBbkGHTupB4QQ2-cCegQIABAA&oq=autumn+falls+xxx&gs_lcp=CgNpbWcQA1DiBliECmD-HGgAcAB4AIAB3gGIAZ4EkgEFMC4yLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=uf3gYb79M5GL5OUPu9KeoAg&bih=657&biw=1366" target="_blank">AUTUMN FALLS</a></li>
+
+    </ul>
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'primeiro';
+    src: url('idroid.otf') format('opentype');
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #84E1AD;
+    margin: 0;
+}
+
+header{
+    background-image: linear-gradient(to top, #1E6D41,#3CD882);
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+
+header > h1 {
+    font-family: 'Bebas Neue', cursive;
+     padding: 10px;
+    color: aliceblue;
+}
+header > p{
+    width: 300px;
+    margin: auto;
+    padding: 0px 20px 30px 20px;
+}
+header > nav{
+    background-color: #133f26;
+    padding: 5px;
+    border-radius: 3px ;
+    margin: 0;
+    box-shadow: 0px 0px 10px #278551;
+
+}
+header > nav > a{
+
+    color: rgb(45, 255, 150);
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 5px ;
+    
+}
+
+header > nav > a:hover
+{
+    background-color: #0c2416;
+    border-radius: 5px;
+    color: rgba(100, 207, 51, 0.856);
+    box-shadow: 0px 0px 10px #278551;
+}
+
+
+footer{
+    background-color: #164e2f;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+main{
+    background-color: white;
+    width: 800px;
+    color: black;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 0px 0px 10px #164e2f;
+    
+}
+p{
+    text-indent: 15px;
+}
+
+h1,h2{
+    color: #113822;
+}
+h2,h3{
+    font-family: 'primeiro',Arial, Helvetica, sans-serif;
+}
+h3{
+    background-image: linear-gradient(to right,#94ebbb, white);
+    padding: 5px;
+}
+
+div#d1{
+    background-color: #1e643d;
+    border-radius: 10px;
+    color: white;
+   
+}
+div#d2{
+
+    background-color: #C5EBD6;
+    border-radius: 0px 0px 10px 10px;
+    color: rgb(0, 0, 0);
+    padding: 6px;
+
+}
+ p#qm {
+    padding-top: 10px ;
+}
+div#video{
+    background-color: #278551;
+    margin: auto;
+    text-align: center;
+}
+
+ul{
+    display: inline-block;
+    height: 100px;
+    list-style-type: disc;
+    padding-right: 70px;
+}
+p.img{
+    text-align: center;
+}
+p#imgm{
+   
+    text-indent: 0%;
+}
