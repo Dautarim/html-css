@@ -17,19 +17,21 @@
         Segundo formulario
     </h1>
 
-    <form action="cadastro.php" method="post">
+    <form action="cadastro.php" method="post" autocomplete="on">
         <p>
             <label for="inome">Nome:</label>
-            <input type="text" name="nome" id="inome">
+            <input type="text" name="nome" id="inome" required minlength="5"
+            maxlength="15" placeholder="Digite o nome" autocomplete="username" >
         </p>
 
         <p>
             <label for="isenha">Senha:</label>
-            <input type="password" name="senha" id="isenha">
+            <input type="password" name="senha" id="isenha" required minlength="5" size="8" placeholder="Digite a senha" autocomplete="current-password">
         </p>
 
         <p>
             <input type="submit" value="Entrar">
+            <input type="reset" value="Limpar" >
         </p>
     </form>
 
