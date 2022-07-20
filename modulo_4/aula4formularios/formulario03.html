@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULÁRIO 3</title>
+    <style>
+        *
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        TERCEIRO FORMULARIO
+    </h1>
+
+    <form action="cadastro.php" autocomplete="on">
+        <p>
+            <label for="inome">
+                Nome:
+            </label>
+            <input type="text" name="nome" id="inome" autocomplete="additional-name" required placeholder="Nome completo" maxlength="35">
+        </p>
+
+        <p>
+            <label for="imedia">
+                Média:
+            </label>
+            <input type="number" name="media" id="imedia" min="0" max="20" required value="10"  step=".1">
+        </p>
+
+        <p>
+            <label for="iperiodo">
+                Periodo
+            </label>
+            <input type="month" name="periodo" id="iperiodo" required value="2010-03">
+        </p>
+
+        <p>
+            <label for="idata">
+                Data:
+            </label>
+            <input type="date" name="data" id="idata" required value="2022-03-10">
+        </p>
+
+        <p>
+            <label for="ihora">
+                Hora:
+            </label>
+            <input type="time" name="hora" id="ihora" required value="10:30">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
