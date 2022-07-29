@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO 4</title>
+    <style>
+        *
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post"><!--Tem que ser post, para evitar o problema de limite de tamanho-->
+        <h1>
+            SETIMO FORMULARIO
+        </h1>
+        <p>
+            <label for="iestados">Selecione o seu Estado:</label>
+            <select name="estados" id="iestados">
+                <optgroup label="NORDESTE">
+                    <option value="CE">Ceara</option>
+                    <option value="RN">Rio Grande Do Norte</option>
+                    <option value="MA">Maranhão</option>
+                </optgroup>
+                <optgroup label="SUDESTE">
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iproficoes">Profição: </label>
+            <input type="text" name="proficao" id="iproficoes" list="iprf">
+            <datalist id="iprf">
+                <option>Professor</option>
+                <option >Gamer Proficonal</option>
+                <option >Prostituta</option>
+                <option >Médico</option>
+            </datalist>
+        
+        </p>
+        <p>
+            <label for="msg">
+                DIGITE A SUA RECLAMAÇÃO
+            </label>
+        <br>
+            <textarea name="rec" id="msg" cols="30" rows="1"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+        
+    </form>
+</body>
+</html>
