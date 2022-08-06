@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/*CSS PARA A TELA */
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1
+{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 34px;
+    margin-bottom: 20px;
+    color: rgb(2, 0, 31);
+}
+
+header menu
+{
+    background: rgb(2, 0, 31);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.459);
+}
+
+header menu ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header menu ul li
+{
+    padding: 10px;
+    color: white;
+    font-size: 1.3em;
+    margin-block: 5px;
+    transition: ease .4s;
+    border-radius: 10px;
+}
+
+header menu ul li:hover
+{
+    
+    background: lightgray;
+    color: black;
+}
+
+main
+{
+    width: 800px;
+    margin: auto;
+    background: rgb(223, 222, 222);
+    padding: 24px 20px;
+}
+
+main h3
+{
+    color: rgb(2, 0, 31);
+    font-size: 2em;
+    margin-bottom: 24px;
+}

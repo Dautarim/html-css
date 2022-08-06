@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/* CSS PARA IMPRESSÃO */
+
+*{
+  
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header menu
+{
+    display: none;
+}
+
+main article::after
+{
+    content: 'EU ROUBEI ESSE SITE 😎';
+}
